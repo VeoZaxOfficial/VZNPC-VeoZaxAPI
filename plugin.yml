@@ -1,0 +1,54 @@
+name: VZNPC
+author: VeoZax
+version: 0.14.x_0.15.10_1.1.5
+description: NPC plugin for VeoZaxAPI by VeoZax.
+main: vznpc\Main
+api: ["VeoZaxAPI"]
+website: https://github.com/VeoZaxOfficial/VZNPC-VeoZaxAPI
+
+commands:
+  vznpc:
+    description: Definition of VZNPC Commands
+    usage: "/vznpc [args]..."
+    permission: vznpc.command
+  rca:
+    description: Run the command on someone else. This rca can be more like sudo usage. If you run this on someone else, it will be like they run the command, not you.
+    usage: "/rca <player> <command>"
+    permission: vznpc.rca
+
+permissions:
+  vznpc:
+    description: Who should be allowed to use all VZNPC OP commands.
+    default: op
+
+  vznpc.command:
+    description: Who should be allowed to use /vznpc command.
+    default: op
+
+  vznpc.edit:
+    description: Who should be allowed to edit the data of VZNPC entity.
+    default: op
+
+  vznpc.rca:
+    description: Who should be allowed to run commands as another players.
+    default: op
+
+  vznpc.remove:
+    description: Who should be allowed to remove VZNPC entities.
+    default: op
+
+  vznpc.id:
+    description: Who should be allowed to view the ID of an NPC Entity.
+    default: op
+
+  vznpc.help:
+    description: Who should be allowed to view help command page of VZNPC plugin.
+    default: op
+
+  vznpc.version:
+    description: Who should be allowed to view the VZNPC version.
+    default: op
+
+  vznpc.seeId:
+    description: Allow seeing entity IDs under VZNPC entities' names (recommended to set as false)
+    default: false
