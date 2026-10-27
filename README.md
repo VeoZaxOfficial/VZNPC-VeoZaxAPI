@@ -40,7 +40,8 @@ Place human NPCs and floating text (holograms) anywhere in your worlds with `/vz
 </p>
 
 ### As a `.phar`
-1. Download the `VZNPC` plugin from the [releases](https://github.com/VeoZaxOfficial/VZNPC-VeoZaxAPI/releases) or as a Zip from the repo.
+1. Download the `VZNPC` plugin as a Zip from the repo or as MediaFire.
+- MediaFire Download Link: `VZNPC.zip` [Click Here To Download](https://www.mediafire.com/file/n39xqrq99wnivg4/VZNPC_Plugin_for_VeoZaxAPI.zip/file)
 2. Drop it into your server's `plugins/` folder.
 3. Restart the server.
 
